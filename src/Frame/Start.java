@@ -14,6 +14,7 @@ import javax.swing.JOptionPane;
 public class Start extends javax.swing.JFrame {
 
     public Start() {
+        setIconImage(Static.getIconImage());
         initComponents();
         setLocationRelativeTo(null);
         setTitle(Static.title);

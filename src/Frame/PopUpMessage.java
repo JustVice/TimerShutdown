@@ -1,5 +1,6 @@
 package Frame;
 
+import Logic.Static;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -8,6 +9,7 @@ public class PopUpMessage extends javax.swing.JFrame implements Runnable {
     private int time;
     
     public PopUpMessage(int time, String label) {
+        setIconImage(Static.getIconImage());
         setUndecorated(true);
         initComponents();
         setLocationRelativeTo(null);

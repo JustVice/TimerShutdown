@@ -1,10 +1,16 @@
 package Logic;
 
+import java.awt.Image;
+import java.awt.Toolkit;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Static {
+
+    public static Image getIconImage() {
+        return Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("Images/iconLogo.png"));
+    }
 
     public static String command = "shutdown -s -t ", title = "Shutdown", version = "v1.5";
     public static int defaultTimeToExecuteWait = 400;
