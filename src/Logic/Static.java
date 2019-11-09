@@ -31,5 +31,5 @@ public class Static {
             Logger.getLogger(Static.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+ 
 }
