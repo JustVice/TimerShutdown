@@ -200,7 +200,7 @@ public class Start extends javax.swing.JFrame {
         });
 
         allliks.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        allliks.setText("<html><a href=\"http://www.google.com\">All links</a></html>");
+        allliks.setText("<html><a href=\"http://www.google.com\">Website</a></html>");
         allliks.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 allliksMouseClicked(evt);
@@ -396,7 +396,7 @@ public class Start extends javax.swing.JFrame {
     private void allliksMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_allliksMouseClicked
         if (Desktop.isDesktopSupported()) {
             try {
-                Desktop.getDesktop().browse(new URI("http://split-vice.com"));
+                Desktop.getDesktop().browse(new URI("https://split-vice.com/technology/java/timer-shutdown/"));
             } catch (IOException | URISyntaxException ex) {
                 Logger.getLogger(Frame.class.getName()).log(Level.SEVERE, null, ex);
             }
