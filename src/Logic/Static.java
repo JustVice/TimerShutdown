@@ -12,7 +12,7 @@ public class Static {
         return Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("Images/iconLogo.png"));
     }
 
-    public static String command = "shutdown -s -t ", title = "Shutdown", version = "v1.5";
+    public static String command = "shutdown -s -t ", title = "Shutdown", version = "v1.5.1";
     public static int defaultTimeToExecuteWait = 400;
     public static int timeForPopUpMessages = 2500;
 
